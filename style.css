@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    font-family: 'inter';
+}
+
+#logo{
+    width: 125px;
+    margin-top: 80px; 
+    margin-left: 50px;
+}
+
+#Título-menu-superior{
+    background: none;
+    margin-top: 50px;
+    margin-left: 160px;
+    font-size: 45px;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+#Texto-menu-superior{
+    background: none;
+    margin-top: 40px;
+    margin-left: 160px;
+    font-size: 20.5PX;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 150px;
+}
+
+#menusuperior{
+background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.88),
+    rgba(0, 0, 0, 0.75)
+    ), url("Imagem/background.jpg");    
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #eaece5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    flex-wrap: wrap;
+    padding: 40px 32px;
+}
+
+.icone{
+    margin: 0;
+    padding: 15px;
+}
+
+.texto-informativo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    gap: 10px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+}
+
+#textovideo{
+    margin-top: 8px;
+    line-height: 30px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+    background-size: cover;
+    height: 440px;
+}
+
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 32px;   
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+#div-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#seta-esquerda{
+    display: none;
+    margin-right: 12px;
+}
+
+#samantha{
+    display: none;
+}
+
+.seta{
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #eaece5;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    color: #eaece5;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    background: linear-gradient(#558CFF, #276BFF);  
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s; 
+}
+
+button:hover {
+    transform: translateY(-7px);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);  
+}
