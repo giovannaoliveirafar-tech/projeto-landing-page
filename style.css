@@ -276,3 +276,27 @@ button:hover {
         max-width: 320px;
     }
 }
+@media (max-width: 768px) {
+
+    #menusuperior {
+        padding: 20px;
+    }
+
+    #logo {
+        margin: 30px 0 20px 20px;
+    }
+
+    #Título-menu-superior,
+    #Texto-menu-superior {
+        margin: 20px;
+        text-align: left;
+    }
+
+    #secaovideo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+}
