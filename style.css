@@ -170,16 +170,74 @@ button:hover {
 }
 @media (max-width: 768px) {
 
-    /* ESSE BLOCO SÓ AFETA MOBILE */
-
-    .seta {
-        display: none !important;
+    body {
+        overflow-x: hidden;
     }
 
+    /* ===== TOPO ===== */
+    #menusuperior {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #logo {
+        margin: 30px auto;
+        display: block;
+    }
+
+    #Título-menu-superior,
+    #Texto-menu-superior {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #Título-menu-superior {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #Texto-menu-superior {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 60px;
+    }
+
+    /* ===== MENU INFORMACIONAL ===== */
+    #menuinformacional {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* ===== VÍDEO ===== */
+    #secaovideo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #video {
+        width: 100%;
+        height: 220px;
+        margin: 0;
+    }
+
+    #titulovideo {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    #textovideo {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* ===== CARROSSEL ===== */
     #carrossel {
         height: auto;
-        overflow: hidden;
         padding: 30px 10px;
+        overflow: hidden;
     }
 
     #div-cards {
@@ -188,11 +246,25 @@ button:hover {
         overflow-x: auto;
         gap: 15px;
         padding: 10px 0;
-        justify-content: flex-start;
     }
 
     #div-cards img {
         flex: 0 0 80%;
         max-width: 280px;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    /* ===== FORM ===== */
+    #titulo-formulario {
+        font-size: 20px;
+    }
+
+    input,
+    button {
+        width: 90%;
+        max-width: 320px;
     }
 }
