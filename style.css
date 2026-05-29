@@ -300,3 +300,34 @@ button:hover {
     }
 
 }
+@media (max-width: 768px) {
+
+    /* mantém o carrossel, mas flexível */
+    #carrossel {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    /* transforma em “scroll horizontal” (padrão moderno) */
+    #div-cards {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 15px;
+        padding: 10px;
+        scroll-snap-type: x mandatory;
+    }
+
+    /* cada card ocupa boa parte da tela */
+    #div-cards img {
+        flex: 0 0 80%;
+        max-width: 280px;
+        scroll-snap-align: center;
+    }
+
+    /* setas não quebram mais layout */
+    .seta {
+        display: none;
+    }
+
+}
