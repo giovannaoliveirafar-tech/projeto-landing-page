@@ -168,3 +168,111 @@ button:hover {
     transform: translateY(-7px);
     box-shadow: 5px 5px 10px rgba(0,0,0,0.4);  
 }
+@media (max-width: 768px) {
+
+    /* evita scroll lateral (principal causa de "site quebrado") */
+    body {
+        overflow-x: hidden;
+    }
+
+    /* TOPO */
+    #menusuperior {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #logo {
+        margin: 30px auto;
+        display: block;
+    }
+
+    #Título-menu-superior,
+    #Texto-menu-superior {
+        margin: 20px;
+        text-align: center;
+    }
+
+    #Título-menu-superior {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #Texto-menu-superior {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 60px;
+    }
+
+    /* MENU INFORMACIONAL */
+    #menuinformacional {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    /* VÍDEO */
+    #secaovideo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #video {
+        width: 100%;
+        max-width: 100%;
+        height: 220px;
+        margin: 0;
+    }
+
+    #titulovideo {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    #textovideo {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* CARROSSEL */
+    #carrossel {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    #titulocarrossel {
+        font-size: 22px;
+    }
+
+    #div-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #bruna,
+    #leonardo,
+    #samantha {
+        width: 90%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    /* FORMULÁRIO */
+    #titulo-formulario {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+
+    input,
+    button {
+        width: 90%;
+        max-width: 320px;
+    }
+}
